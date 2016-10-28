@@ -94,44 +94,14 @@ h3,h4,h5 {
   font-weight: 200;
 }
 
-/*Projects  and Overlay Effects*/
-.project-title, .description {
-  color:lightgrey;
+/*Projects*/
+ .description {
+  color:black;
+  margin-top:-20px;
+  font-size: 1.8rem;
 }
 
-.overlay-container{
-  background-color: transparent;
-  width:100%;
-  margin:1%;
-  position: relative;
-  overflow:hidden;
-  line-height:0;
-}
-
-.overlay{
-  color:white;
-  background-color:brown;
-  background-color: rgba(20, 0, 0, .7);
-  text-align:center;
-  padding:10% 5% 30%;
-  box-sizing: border-box;
-  position: absolute;
-  width:100%;
-  left:0;
-  line-height:1;
-
-  top:50%;
-  transition: all .3s ease-in-out;
-  opacity:0;
-
- }
-.overlay-container:hover .overlay{
-  opacity:1;
-  top:0;
-}
-
-
-/*Contact info and Footer......  */
+/*Contact info*/
 
 #contact a {
   color: #FF6F69;
@@ -141,6 +111,10 @@ h3,h4,h5 {
   text-decoration: none;
 }
 
+/*Footer*/
+footer {
+background:white;
+}
 footer p {
   position: relative;
   font-size: 1.4em; }
@@ -158,13 +132,13 @@ footer p a, footer p a:hover {
   height: 50px;
   width: 50px;
   background-color: turquoise;
-  border: 3px solid #EDEDED;
+  border: 2px solid #EDEDED;
   border-radius: 50%;
 }
 
 .icon .fa:hover {
   background-color: #EDEDED;
-  border: 3px solid #FF6F69;
+  border: 2px solid #FF6F69;
   border-radius: 50%;
 }
 
