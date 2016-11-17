@@ -1,5 +1,5 @@
 // Scroll
-smoothScroll(1500);
+smoothScroll(1600);
 
 function smoothScroll (duration) {
 	$('a[href^="#"]').on('click', function(event) {

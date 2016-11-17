@@ -15,7 +15,7 @@
 
 <!-- Navigation -->
 <body>
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar-default" id="default">
   <div class="container-fluid">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -25,7 +25,7 @@
    </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -45,9 +45,9 @@
     <div class="row">
        <div class="jumbotron">
          <img class="img-responsive center-block" src="assets/images/profile.jpg" alt = "image-profile">
-      <p class="text-center">Hi.I'm Neisy.
+      <p id = "firstdescription">Hi.I'm Neisy.
   <br>A cuban born developer, now living in the beautiful Montreal, Canada, with a truly passion for learning, and improving my craft everyday.
- I have a background in Music Composition and Jazz, and since an early age I've been involved in music.
+ I have a background in Music.
  This year I started my journey as a Web Developer and I'm really excited about what the field has to offer.
  I'm very happy to show you some of my recent projects.</p>
 
@@ -88,61 +88,61 @@
   <div id="portfolio" class="container">
     <h3 class="text-center">Projects</h3>
 
-  <p id="travel-site">Fictional Travel-Site Page.</p><hr />
-    <p class = "description">HTML/CSS, BEM Methodology, Sass, JavaScript,
-    jQuery, Node.Js, Gulp</p>
-  <a href="https://yirini.github.io/travel-site/"
-     target = "blank">
-    <img src="assets/images/travel-site.png" alt="travel-site project">
-
- </a>
-
-   <p id="color-game">Guessing Color Game.</p><hr />
-    <p class = "description">HTML/CSS, JavaScript</p>
-    <a href="http://codepen.io/yufix/full/YWBqBN/"
-       target = "blank">
-     <img src="assets/images/colorgame.png" alt="color-game project">
-
-     </a>
-
-
-   <p id="random-quote">Random Quote Generator.</p><hr />
+    <p id="random-quote">Random Quote Generator.</p>
     <p class = "description"> HTML/CSS, Bootstrap, jQuery</p>
      <a href="http://codepen.io/yufix/full/rLRkBV/"
      target = "blank">
     <img src="assets/images/randomquote.png" alt="random-quote project">
-    </a>
+    </a><hr />
 
 
-   <p id="landing-page">Artist Landing Page.</p><hr />
+   <p id="landing-page">Artist Landing Page.</p>
     <p class = "description"> HTML/CSS, Bootstrap, jQuery</p>
      <a href="http://codepen.io/yufix/full/AXRgLP/"
       target = "blank">
       <img  src="assets/images/noedylandingpage.png" alt="landing-page project">
-      </a>
+      </a><hr />
 
 
-   <p id="gallery">Interactive Image Gallery.</p><hr />
+   <p id="gallery">Interactive Image Gallery.</p>
      <p class = "description">HTML/CSS, jQuery</p>
     <a href="http://codepen.io/yufix/full/zBQNbO/"
      target = "blank">
     <img src="assets/images/jquerygallery.png" alt="image-gallery project">
-   </a>
+   </a><hr />
 
-   <p id="music-logo">Music Logo.</p><hr />
+   <p id="music-logo">Music Logo.</p>
    <p class = "description">HTML/CSS</p>
     <a href="http://codepen.io/yufix/full/dXLyBz/"
     target = "blank">
     <img src="assets/images/musiclogo.png" alt="music-logo project">
-   </a>
-  </div>
+   </a><hr />
 
-  <hr />
+
+    <p id="color-game">Guessing Color Game.</p>
+     <p class = "description">HTML/CSS, JavaScript</p>
+      <a href="http://codepen.io/yufix/full/YWBqBN/"
+      target = "blank">
+       <img src="assets/images/colorgame.png" alt="color-game project">
+      </a><hr />
+
+
+       <p id="travel-site">Fictional Travel-Site Page.</p>
+       <p class = "description">HTML/CSS, BEM Methodology, Sass, JavaScript,
+       jQuery, Node.Js, Gulp</p>
+       <a href="https://yirini.github.io/travel-site/"
+        target = "blank">
+       <img src="assets/images/travel-site.png" alt="travel-site project">
+       </a>
+
+     </div>
+
+  <hr id="divseparator"/>
 
 <!-- Contact -->
 <div id="contact" class="container">
     <h5>Get in touch</h5>
-    <p class="text-center">If you have any comments about my portfolio or just want to be in contact,<br>email me at <a href="mailto:neisywilson@gmail.com"
+    <p class="text-center" id = "contactext">If you have any comments about my portfolio or just want to be in contact,<br>email me at <a href="mailto:neisywilson@gmail.com"
       class="link">neisywilson@gmail.com</a>
    </div>
        <br>
@@ -157,14 +157,14 @@
        						<a class="icon" target = "blank" href="https://github.com/yirini"><i class="fa fa-github" aria-hidden="true"></i></a>
        					</li>
        					<li>
-       						<a class="icon" target = "blank" href="https://ca.linkedin.com/in/neisy-wilson-villal%C3%B3n-669ba734" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+       						<a class="icon" target = "blank" href="https://ca.linkedin.com/in/neisy-wilson-villalón-669ba734" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
        					</li>
        					<li>
        						<a class="icon" target = "blank" href="https://twitter.com/lacoco33"><i class="fa fa-twitter" aria-hidden="true"></i></a>
        					</li>
        				</ul>
        			</div>
-       			<p>Coded and designed by Neisy Wilson &copy;2016 </p>
+       			<p class="copyright">Coded and designed by Neisy Wilson &copy;2016 </p>
           </div>
        	</footer>
 
